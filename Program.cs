@@ -64,7 +64,7 @@ namespace atmos
                     }
                     else 
                     {  
-                        string[] offer_words = pricingTable[sku].offer.Trim().Split(' ');
+                        string[] offerWords = pricingTable[sku].offer.Trim().Split(' ');
 
                         int offerQuantity = Convert.ToInt32(offer_words[0]);
                         int offerPrice = Convert.ToInt32(offer_words[2]);
