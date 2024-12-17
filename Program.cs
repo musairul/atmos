@@ -66,8 +66,8 @@ namespace atmos
                     {  
                         string[] offerWords = pricingTable[sku].offer.Trim().Split(' ');
 
-                        int offerQuantity = Convert.ToInt32(offer_words[0]);
-                        int offerPrice = Convert.ToInt32(offer_words[2]);
+                        int offerQuantity = Convert.ToInt32(offerWords[0]);
+                        int offerPrice = Convert.ToInt32(offerWords[2]);
 
                         int offerGroups = quantity / offerQuantity;
                         int remainingItems = quantity % offerQuantity;
